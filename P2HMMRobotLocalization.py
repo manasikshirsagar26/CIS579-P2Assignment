@@ -34,11 +34,13 @@ class Robot():
     currentMazeProb = np.full(shape=(nRows,nCols), fill_value=0.0, dtype=np.float)
     
     def __init__(self, name,currentMatrix):
+        # Define parameters of Robot 
         self.name = 'Romba'
         self.detectCorrectObstacle = 0.8
         self.errorDetectObstacle = 1.0 - self.detectCorrectObstacle
         self.errorOpenCellAsObstacle = 0.15
         self.detectOpenCell = 1.0 - self.errorOpenCellAsObstacle
+
         self.currentPosition = currentMatrix
         self.currentMazeProb = currentMatrix
     
@@ -58,8 +60,7 @@ class Robot():
         
             for row in range(0,self.nRows):
                 for col in range(0,self.nCols):
-                    if((row==1 and col==1) or (row==1 and col==4) or \
-                        (row==3 and col==1 ) or (row==3 and col==4)):
+                    if(self.isCurrentCellObstacle(row,col)):
                         motionProbPerCell = 0.0
                         motionProb.append(motionProbPerCell)
                         continue
@@ -148,8 +149,7 @@ class Robot():
 
             for row in range(0,self.nRows):
                 for col in range(0,self.nCols):
-                    if((row==1 and col==1) or (row==1 and col==4) or \
-                        (row==3 and col==1) or (row==3 and col==4)):
+                    if(self.isCurrentCellObstacle(row,col)):
                         motionProbPerCell = 0
                         motionProb.append(motionProbPerCell)
                         continue
