@@ -1,0 +1,534 @@
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846]
+[(0, 0), (0, 1), (0, 2), (0, 1)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624]
+[(0, 1), (0, 2), (0, 3), (1, 2)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464]
+[(0, 2), (0, 3), (0, 4), (1, 3)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464]
+[(0, 3), (0, 4), (0, 5), (0, 4)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778]
+[(0, 4), (0, 5), (0, 6), (1, 5)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31]
+[(0, 5), (0, 6), (0, 6), (1, 6)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232]
+[(1, 0), (1, 0), (1, 0), (2, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702]
+[(1, 2), (1, 2), (1, 3), (2, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226]
+[(1, 2), (1, 3), (1, 3), (2, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226]
+[(1, 5), (1, 5), (1, 6), (2, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226]
+[(1, 5), (1, 6), (1, 6), (2, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01]
+[(2, 0), (2, 0), (2, 1), (3, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624]
+[(2, 0), (2, 1), (2, 2), (2, 1)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43]
+[(2, 1), (2, 2), (2, 3), (3, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508]
+[(2, 2), (2, 3), (2, 4), (3, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508]
+[(2, 3), (2, 4), (2, 5), (2, 4)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082]
+[(2, 4), (2, 5), (2, 6), (3, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856]
+[(2, 5), (2, 6), (2, 6), (3, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662]
+[(3, 0), (3, 0), (3, 0), (4, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702]
+[(3, 0), (3, 1), (3, 2), (4, 1)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.0
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856]
+[(3, 2), (3, 2), (3, 3), (4, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226]
+[(3, 2), (3, 3), (3, 3), (4, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226]
+[(3, 3), (3, 4), (3, 5), (4, 4)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.0
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01]
+[(3, 5), (3, 5), (3, 6), (4, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226]
+[(3, 5), (3, 6), (3, 6), (4, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01]
+[(4, 0), (4, 0), (4, 1), (5, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778]
+[(4, 0), (4, 1), (4, 2), (5, 1)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27]
+[(4, 1), (4, 2), (4, 3), (5, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662]
+[(4, 2), (4, 3), (4, 4), (5, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662]
+[(4, 3), (4, 4), (4, 5), (5, 4)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922]
+[(4, 4), (4, 5), (4, 6), (5, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01]
+[(4, 5), (4, 6), (4, 6), (5, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43]
+[(5, 0), (5, 0), (5, 1), (5, 0)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248]
+[(5, 0), (5, 1), (5, 2), (5, 1)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248, 0.248]
+[(5, 1), (5, 2), (5, 3), (5, 2)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248, 0.248, 0.402]
+[(5, 2), (5, 3), (5, 4), (5, 3)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248, 0.248, 0.402, 0.402]
+[(5, 3), (5, 4), (5, 5), (5, 4)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248, 0.248, 0.402, 0.402, 0.402]
+[(5, 4), (5, 5), (5, 6), (5, 5)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248, 0.248, 0.402, 0.402, 0.402, 0.248]
+[(5, 5), (5, 6), (5, 6), (5, 6)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248, 0.248, 0.402, 0.402, 0.402, 0.248, 0.248]
+[[0.846 0.624 3.464 3.464 0.778 3.31  2.232]
+ [1.702 0.    7.226 7.226 0.    7.226 2.01 ]
+ [0.624 1.43  2.508 2.508 2.082 1.856 2.662]
+ [1.702 1.856 7.226 7.226 2.01  7.226 2.01 ]
+ [0.778 4.27  2.662 2.662 4.922 2.01  1.43 ]
+ [0.248 0.248 0.402 0.402 0.402 0.248 0.248]]
+[(0, 0), (0, 0), (0, 1), (1, 0)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846]
+[(0, 0), (0, 1), (0, 2), (0, 1)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624]
+[(0, 1), (0, 2), (0, 3), (1, 2)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464]
+[(0, 2), (0, 3), (0, 4), (1, 3)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464]
+[(0, 3), (0, 4), (0, 5), (0, 4)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778]
+[(0, 4), (0, 5), (0, 6), (1, 5)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31]
+[(0, 5), (0, 6), (0, 6), (1, 6)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232]
+[(1, 0), (1, 0), (1, 0), (2, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702]
+[(1, 2), (1, 2), (1, 3), (2, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226]
+[(1, 2), (1, 3), (1, 3), (2, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226]
+[(1, 5), (1, 5), (1, 6), (2, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226]
+[(1, 5), (1, 6), (1, 6), (2, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01]
+[(2, 0), (2, 0), (2, 1), (3, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624]
+[(2, 0), (2, 1), (2, 2), (2, 1)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43]
+[(2, 1), (2, 2), (2, 3), (3, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508]
+[(2, 2), (2, 3), (2, 4), (3, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508]
+[(2, 3), (2, 4), (2, 5), (2, 4)]
+Target Probability: [0.1, 0.8, 0.1, 0]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082]
+[(2, 4), (2, 5), (2, 6), (3, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856]
+[(2, 5), (2, 6), (2, 6), (3, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662]
+[(3, 0), (3, 0), (3, 0), (4, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702]
+[(3, 0), (3, 1), (3, 2), (4, 1)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.0
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856]
+[(3, 2), (3, 2), (3, 3), (4, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226]
+[(3, 2), (3, 3), (3, 3), (4, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226]
+[(3, 3), (3, 4), (3, 5), (4, 4)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.0
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01]
+[(3, 5), (3, 5), (3, 6), (4, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226]
+[(3, 5), (3, 6), (3, 6), (4, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01]
+[(4, 0), (4, 0), (4, 1), (5, 0)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778]
+[(4, 0), (4, 1), (4, 2), (5, 1)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27]
+[(4, 1), (4, 2), (4, 3), (5, 2)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662]
+[(4, 2), (4, 3), (4, 4), (5, 3)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662]
+[(4, 3), (4, 4), (4, 5), (5, 4)]
+Target Probability: [0.1, 0.8, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922]
+[(4, 4), (4, 5), (4, 6), (5, 5)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01]
+[(4, 5), (4, 6), (4, 6), (5, 6)]
+Target Probability: [0.1, 0, 0.1, 0.8]
+NextPathcurrentmaze:  8.53
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43]
+[(5, 0), (5, 0), (5, 1), (5, 0)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  0.47
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248]
+[(5, 0), (5, 1), (5, 2), (5, 1)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  0.47
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01
+Motion Probability: [0.846, 0.624, 3.464, 3.464, 0.778, 3.31, 2.232, 1.702, 0, 7.226, 7.226, 0, 7.226, 2.01, 0.624, 1.43, 2.508, 2.508, 2.082, 1.856, 2.662, 1.702, 1.856, 7.226, 7.226, 2.01, 7.226, 2.01, 0.778, 4.27, 2.662, 2.662, 4.922, 2.01, 1.43, 0.248, 0.248]
+[(5, 1), (5, 2), (5, 3), (5, 2)]
+Target Probability: [0.1, 0, 0.1, 0]
+NextPathcurrentmaze:  2.01
+NextPathcurrentmaze:  2.01

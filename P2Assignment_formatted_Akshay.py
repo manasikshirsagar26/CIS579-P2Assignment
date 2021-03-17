@@ -198,7 +198,7 @@ def move(previousStep,evidenceMatrix,moveDirection):
                         nextmove=(x+1,y)
 
                     nextPath.append(nextmove)
-
+                    print(nextPath)
                     ### get the target values
                     targetProb=[]
 
@@ -228,12 +228,15 @@ def move(previousStep,evidenceMatrix,moveDirection):
 
                     evidenceMatrix[nextPath[0][0],nextPath[0][1]]
                     motionProbPerCell=0
-
+                    print("Target Probability:" , targetProb)
                 for k in  [0,1,2,3]:
-                    motionProbPerCell=float(motionProbPerCell+evidenceMatrix[nextPath[k][0],nextPath[k][1]]*targetProb[k])#.round(3))
+                    #print("NextPath[k][0]: ", nextPath[k][0])
+                    #print("NextPath[k][1]: ", nextPath[k][1])
+                    print("NextPathcurrentmaze: ",evidenceMatrix[nextPath[k][0],nextPath[k][1]])
+                    motionProbPerCell=float((motionProbPerCell+evidenceMatrix[nextPath[k][0],nextPath[k][1]]*targetProb[k]).round(3))
                 
                 motionProb.append(motionProbPerCell)
-
+                print("Motion Probability:",motionProb) 
     elif(moveDirection=='West'):
 
         for x in [0,1,2,3,4,5]:
@@ -345,8 +348,8 @@ if __name__=='__main__':
     print(move([0,0,0,0],evidenceMatrix,'North'))
     moveMatrix=move([0,0,0,0],evidenceMatrix,'North')
 
-    evidenceMatrix=sensorEvidence([1,0,0,0],moveMatrix)
-    print("\nSensor Evidence Matrix of sensing [0,0,0,0]:\n", sensorEvidence([1,0,0,0],moveMatrix))
+    #evidenceMatrix=sensorEvidence([1,0,0,0],moveMatrix)
+    #print("\nSensor Evidence Matrix of sensing [0,0,0,0]:\n", sensorEvidence([1,0,0,0],moveMatrix))
 
     # print(northMove([0,0,0,0],evidenceMatrix))
 

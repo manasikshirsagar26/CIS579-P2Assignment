@@ -4,7 +4,7 @@
 # UMID- 05494807
 # Instructor: Prof. Shengquan Wang
 # Semester: Winter 2021 
-# P2 assignment: Hidden Markov Models
+# P2 assignment: Hidden Markov Models -- To locate Robot in Windy Maze
 #######################################################
 
 # Import required packages
@@ -40,17 +40,201 @@ class Robot():
         self.errorOpenCellAsObstacle = 0.15
         self.detectOpenCell = 1.0 - self.errorOpenCellAsObstacle
         self.currentPosition = currentMatrix
+        self.currentMazeProb = currentMatrix
     
     def printMaze(self):
         # Calculate shape and ensure correct maze 
-        #print("Maze probabilities:")
+        print("Maze probabilities:")
         for row in range(0,self.nRows):
             for col in range(0,self.nCols):
-                print(round(self.currentMazeProb[row,col],3),"\t", end =" ")
+                print(round(self.currentMazeProb[row,col],2),"\t", end =" ")
             print("")
 
-    def move(self):
-        print("\nMoving robot")
+    def move(self,moveDirection):
+        print("\nMoving robot..")
+        motionProb=[]
+
+        if(moveDirection=='North'):
+        
+            for row in range(0,self.nRows):
+                for col in range(0,self.nCols):
+                    if((row==1 and col==1) or (row==1 and col==4) or \
+                        (row==3 and col==1 ) or (row==3 and col==4)):
+                        motionProbPerCell = 0.0
+                        motionProb.append(motionProbPerCell)
+                        continue
+                    else:
+                        probCalc=[]
+                        nextPath=[]
+                        nextmove=()
+
+                        ## get the target position
+                        ## from west
+                        # If boundary
+                        if (row in range(0,7) and col-1<0) or \
+                            (row==1 and col-1 ==1) or (row==1 and col-1==4) or \
+                            (row==3 and col-1==1) or (row==3 and col-1==4):
+                            nextmove=(row,col)
+                        elif(row in range (0,7) and col-1>=0):
+                            nextmove=(row,col-1)
+                        nextPath.append(nextmove)
+
+                        ## from North
+                        if ( row in range (0,6) and col in range(0,7)):
+                            nextmove=(row,col)
+                        nextPath.append(nextmove)
+
+                        ## from east
+                        if (row in range (0,7) and col+1>=7) or \
+                            (row==1 and col+1==1) or (row==1 and col+1==4) or \
+                            (row==3 and col+1==1) or (row==3 and col+1==4):
+                            nextmove=(row,col)
+                        elif(row in range(0,7) and col+1<=6):
+                            nextmove=(row,col+1)
+                        nextPath.append(nextmove)
+
+                        ## from south
+                        if (row+1>=6 and col in range(0,7)) or \
+                            (row+1==3 and  col==4) or (row+1==3 and col==1) or \
+                            (row+1==1 and col==1) or (row+1==1 and col==4):
+                            nextmove=(row,col)
+                        elif(row+1<6 and col in range(0,7)) or (row<=5 and col in range(0,7)):
+                            nextmove=(row+1,col)
+
+                        nextPath.append(nextmove)
+                        #print(nextPath)
+                        ### get the target values
+                        targetProb=[]
+
+                        #from west
+                        if (row in range(0,7)):
+                            targetProb.append(0.1)
+                        
+                        ## from North
+                        if (row==0 and col in range(0,7)) or \
+                            (row-1==1 and col ==1) or (row-1==1 and col==4) or \
+                            (row-1==3 and col==1) or (row-1==3 and col==4):
+                            targetProb.append(0.8)
+                        else:
+                            targetProb.append(0)
+
+                        ## from east
+                        if(row in range(0,7)):
+                            targetProb.append(0.1)
+
+                        ## from south
+                        if(row==5 and col in range(0,7)) or \
+                            (row+1==3 and col==4) or (row+1==3 and col==1) or \
+                            (row+1==1 and col==1) or (row+1==1 and col==4):
+                            targetProb.append(0)
+                        else:
+                            targetProb.append(0.8)
+
+                        self.currentMazeProb[nextPath[0][0],nextPath[0][1]]
+                        motionProbPerCell = 0.0
+                        #print("Target Probability:",targetProb)
+
+                    for k in  [0,1,2,3]:
+                        #print("NextPath[k][0]: ", nextPath[k][0])
+                        #print("NextPath[k][1]: ", nextPath[k][1])
+                        #print("NextPathcurrentmaze: ",self.currentMazeProb[nextPath[k][0],nextPath[k][1]])
+                        motionProbPerCell=float(motionProbPerCell + \
+                            self.currentMazeProb[nextPath[k][0],nextPath[k][1]]*targetProb[k])
+                    
+                    # Append probability
+                    motionProb.append(motionProbPerCell)
+
+        elif(moveDirection=='West'):
+
+            for row in range(0,self.nRows):
+                for col in range(0,self.nCols):
+                    if((row==1 and col==1) or (row==1 and col==4) or \
+                        (row==3 and col==1) or (row==3 and col==4)):
+                        motionProbPerCell = 0
+                        motionProb.append(motionProbPerCell)
+                        continue
+                    else:
+                        probCalc=[]
+                        nextPath=[]
+                        nextmove=()
+
+                        ## get the target position
+                        ## from west
+                        # If boundary
+                        if (row in range(0,7) and col in range(0,7)):
+                            nextmove=(row,col)
+                        nextPath.append(nextmove)
+
+                        ## from North
+                        if (row-1<0 and col in range (0,7)) or \
+                            (row-1==1 and col==1) or (row-1==1 and col==4) or \
+                            (row-1==3 and col==1) or (row-1==3 and col==4):
+                            nextmove=(row,col)
+                        elif(row-1>=0 and col in range(0,7)):
+                            nextmove=(row-1,col)
+                        nextPath.append(nextmove)
+
+                        ## from east
+                        if (row in range(0,7) and col+1>6) or \
+                            (row==1 and col+1==1) or (row==1 and col+1==4) or \
+                            (row==3 and col+1==1) or(row==3 and col+1==4):
+                            nextmove=(row,col)
+                        else:
+                            nextmove=(row,col+1)
+                        nextPath.append(nextmove)
+
+                        ## from south
+                        if(row+1>5 and col in range(0,7)) or(row+1==1 and col==1)or \
+                            (row+1==1 and col==4)or(row+1==3 and col==1)or(row+1==3 and col==4):
+                            nextmove=(row,col)
+                        else:
+                            nextmove=(row+1,col)
+
+                        nextPath.append(nextmove)
+
+                        ### get the target values
+                        targetProb=[]
+
+                        ## from west
+                        if (row in range(0,7) and col-1<0) or (col-1==1 and row ==1) or \
+                            (col-1==4 and row==4) or(row==3 and col-1==1) or (row==3 and col-1==4):
+                            targetProb.append(0.8)
+                        else:
+                            targetProb.append(0)
+
+                        #from North
+                        if (row in range(0,7)):
+                            targetProb.append(0.1)
+                        else:
+                            targetProb.append(0)
+                        
+                        ## from east
+                        if (row in range(0,7) and col+1>6) or(row==1 and col+1 ==1) or \
+                            (row==1 and col+1==4) or(row==3 and col+1==1) or(row==3 and col+1==4):
+                            targetProb.append(0)
+                        else:
+                            targetProb.append(0.8)
+
+                        ## from south
+                        if(row in range(0,7)):
+                            targetProb.append(0.1)
+
+                        self.currentMazeProb[nextPath[0][0],nextPath[0][1]]
+                        motionProbPerCell=0
+                    for k in  [0,1,2,3]:
+                        motionProbPerCell = (motionProbPerCell + \
+                            self.currentMazeProb[nextPath[k][0],nextPath[k][1]]*targetProb[k])#.round(3))
+                    motionProb.append(motionProbPerCell)
+
+        # Reshape obtained probabilities and store obtained probabilities 
+        # in maze cells
+        motionProbMatrix= np.matrix(motionProb).reshape(6,7)
+        #print(motionProbMatrix)
+        for row in range(0,self.nRows):
+            for col in range(0,self.nCols):
+                self.currentMazeProb[row,col] = motionProbMatrix[row,col]
+                
+
 
     def isCurrentCellObstacle(self, row, col):
         isObstacle = False
@@ -104,18 +288,17 @@ class Robot():
                 #for i in len(probCell):
                 #    probCell[i] = round(probCell[i],3)
 
-                print("Prob cell: ", probCell)
+                #print("Prob cell: ", probCell)
                 probCurrentCell = np.prod(probCell)*self.currentPosition[row,col]
                 #print("Current Cell: row:", row, " col:",col, " prob:", round(probCurrentCell,3))
 
                 probForEachCellInMaze.append(probCurrentCell)
                 self.currentMazeProb[row,col] = probCurrentCell
-        print(self.currentMazeProb)
+        #print(self.currentMazeProb)
         for row in range(0,self.nRows):
             for col in range(0,self.nCols):
                 self.currentMazeProb[row,col] = (self.currentMazeProb[row,col]* 100) \
                     /np.sum(probForEachCellInMaze)
-
 
         filterEvidence = []
         for v in probForEachCellInMaze:
@@ -184,40 +367,70 @@ def main():
     
 
     # Step-1: Sense     # Sensing:[0, 0, 0, 0]
-    #sensorReading = [1,2,3,4]
+    #sensorReading = [1,2,3,4] Used for debugging
     sensorReading = [0,0,0,0]
     Romba.sense(sensorReading)
+    print("\n####################################")
     print("\nStep 1 Sensor Output: Filtering after Evidence [0,0,0,0]:")
     Romba.printMaze()
-    '''
-    # Step-2: Move      # Moving:N
-    Romba.move()
-
+    
+    # Step-2: Move     # Moving:N
+    print("####################################")
+    print("\nStep 2 Robot is now going to move to North ")
+    Romba.move("North")
+    print("\nStep 2 After moving in North direction, probabilities looks like:")
+    Romba.printMaze()
+    
     # Step-3: Sense     # Sensing:[1, 0, 0, 0]
     sensorReading = [1,0,0,0]
     Romba.sense(sensorReading)
+    print("\n####################################")
+    print("\nStep 3 Sensor Output: Filtering after Evidence [1,0,0,0]:")
+    Romba.printMaze()
 
+    
     # Step-4: Move      # Moving:N
-    Romba.move()
+    print("####################################")
+    print("\nStep 4 Robot is now going to move to North ")
+    Romba.move("North")
+    print("\nStep 4 After moving in North direction, probabilities looks like:")
+    Romba.printMaze()
 
     # Step-5: Sense     # Sensing:[0, 0, 0, 0]
     sensorReading = [0,0,0,0]
     Romba.sense(sensorReading)
-
+    print("\n####################################")
+    print("\nStep 5 Sensor Output: Filtering after Evidence [0,0,0,0]:")
+    Romba.printMaze()
+    
     # Step-6: Move      # Moving:W
-    Romba.move()
-
+    print("####################################")
+    print("\nStep 6 Robot is now going to move to West ")
+    Romba.move("West")
+    print("\nStep 6 After moving in West direction, probabilities looks like:")
+    Romba.printMaze()
+    
     # Step-7: Sense     # Sensing:[0, 1, 0, 1]
     sensorReading = [0,1,0,1]
     Romba.sense(sensorReading)
+    print("\n####################################")
+    print("\nStep 7 Sensor Output: Filtering after Evidence [0,1,0,1]:")
+    Romba.printMaze()
 
     # Step-8: Move      # Moving:W
-    Romba.move()
+    print("####################################")
+    print("\nStep 8 Robot is now going to move to West ")
+    Romba.move("West")
+    print("\nStep 8 After moving in West direction, probabilities looks like:")
+    Romba.printMaze()
 
     # Step-9: Sense     # Sensing:[1, 0, 0, 0]
     sensorReading = [1,0,0,0]
     Romba.sense(sensorReading)
-    '''
+    print("\n####################################")
+    print("\nStep 9 Sensor Output: Filtering after Evidence [1,0,0,0]:")
+    Romba.printMaze()
+    
     # End of program
     print("\t\t\t End of program\n")
     print("########################################")
