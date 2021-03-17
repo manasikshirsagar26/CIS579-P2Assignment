@@ -1,0 +1,78 @@
+for x in [0,1,2,3,4,5]:
+            for y in [0,1,2,3,4,5,6]:
+                if((x==1 and y==1) or (x==1 and y==4) or \
+                    (x==3 and y==1 ) and (x==3 and y==4)):
+                    motionProbPerCell=0
+                    motionProb.append(motionProbPerCell)
+                    continue
+                else:
+                    probCalc=[]
+                    nextPath=[]
+                    nextmove=()
+
+                    ## get the target position
+                    ## from west
+                    # If boundary
+                    if (x in range(0,7) and y in range(0,7)):
+                        nextmove=(x,y)
+                    nextPath.append(nextmove)
+
+                    ## from North
+                    if (x-1<0 and y in range (0,7)) or \
+                        (x-1==1 and y==1) or (x-1==1 and y==4) or \
+                        (x-1==3 and y==1) or (x-1==3 and y==4):
+                        nextmove=(x,y)
+                    elif(x-1>=0 and y in range(0,7)):
+                        nextmove=(x-1,y)
+                    nextPath.append(nextmove)
+
+                    ## from east
+                    if (x in range(0,7) and y+1>6) or \
+                        (x==1 and y+1==1) or (x==1 and y+1==4) or \
+                        (x==3 and y+1==1) or(x==3 and y+1==4):
+                        nextmove=(x,y)
+                    else:
+                        nextmove=(x,y+1)
+                    nextPath.append(nextmove)
+
+                    ## from south
+                    if(x+1>5 and y in range(0,7)) or(x+1==1 and y==1)or \
+                        (x+1==1 and y==4)or(x+1==3 and y==1)or(x+1==3 and y==4):
+                        nextmove=(x,y)
+                    else:
+                        nextmove=(x+1,y)
+
+                    nextPath.append(nextmove)
+
+                    ### get the target values
+                    targetProb=[]
+
+                    ## from west
+                    if (x in range(0,7) and y-1<0) or (y-1==1 and x ==1) or \
+                        (y-1==4 and x==4) or(x==3 and y-1==1) or (x==3 and y-1==4):
+                        targetProb.append(0.8)
+                    else:
+                        targetProb.append(0)
+
+                    #from North
+                    if (x in range(0,7)):
+                        targetProb.append(0.1)
+                    else:
+                        targetProb.append(0)
+                    
+                    ## from east
+                    if (x in range(0,7) and y+1>6) or(x==1 and y+1 ==1) or \
+                        (x==1 and y+1==4) or(x==3 and y+1==1) or(x==3 and y+1==4):
+                        targetProb.append(0)
+                    else:
+                        targetProb.append(0.8)
+
+                    ## from south
+                    if(x in range(0,7)):
+                        targetProb.append(0.1)
+
+                    evidenceMatrix[nextPath[0][0],nextPath[0][1]]
+                    motionProbPerCell=0
+                for k in  [0,1,2,3]:
+                    motionProbPerCell = (motionProbPerCell+evidenceMatrix[nextPath[k][0],nextPath[k][1]]*targetProb[k])#.round(3))
+                motionProb.append(motionProbPerCell)
